@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+    <title>TP Integrador</title>
+</head>
+<body>
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="row text-white justify-content-between bg-dark align-items-center pt-3">
+            <a href="#" class="col-auto" style="color: white;">
+              <img src="./TP/codoacodo.png" alt="logo-codo" class="img-logo">Conf Bs As
+            </a>
+            <div class="col-auto text-end mb-3 px-5">
+              <a href="#" class="text-light mx-2">La conferencia</a>
+              <a href="#" class="text-secondary mx-2">Los oradores</a>
+              <a href="#" class="text-secondary mx-2">El lugar y la fecha</a>
+              <a href="#" class="text-secondary mx-2">Conviértete en orador</a>
+              <a href="compratck.html" class="text-success mx-2">Comprar tickets</a>
+            </div>
+        </nav>
+      </div>
+        
+        <div class="col-12">
+            <h1 class="text-end text-white" style="padding-top: 160px; padding-right: 55px;">Conf Bs As</h1>
+        </div>
+        <div class="col-12 d-flex ms-auto" style="width:35%; text-align:right; margin-right:55px;">
+          <p class="text-end text-white" style="line-height: 28px;">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+          </p>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="padding-right: 50px;">
+            <button class="btn btn-outline-light me-md-2" type="button">Quiero ser orador</button>
+            <button class="btn btn-success" type="button" style="background-color: rgb(75, 209, 75); border-color: rgb(75, 209, 75);">Comprar tickets</button>
+        </div>
+        
+    </header>
+    <div class="row align-items-center mt-3">
+        <p class="titulo">CONOCE A LOS</p>
+        <p class="subtitulo"><b>ORADORES</b></p>
+    </div>
+
+    <div class="row justify-content-center m-2">
+    <div class="card" style="width: 18rem;">
+            <img src="./TP/steve.jpg" class="card-img-top" alt="steve job">
+            <div class="card-body">
+              <a href="#" class="btn btn-warning">JavaScript</a>
+              <a href="#" class="btn btn-info">Reset</a>
+            </div>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <div class="card" style="width: 18rem;">
+            <img src="./TP/bill.jpg" class="card-img-top" alt="bill gates">
+            <div class="card-body">
+              <a href="#" class="btn btn-warning">JavaScript</a>
+              <a href="#" class="btn btn-info">Reset</a>
+            </div>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <div class="card" style="width: 18rem;">
+            <img src="./TP/ada.jpeg" class="card-img-top" alt="ada lovelace">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">JavaScript</a>
+              <a href="#" class="btn btn-danger">Reset</a>
+            </div>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+    <div class="row mt-4">
+        <div class="col-auto" style="width: 737px; padding: 0;">
+            <img class="img-fluid" src="./TP/honolulu.jpg" alt="honolulu">         
+        </div>
+        <div class="col-auto bg-dark text-white" style="width: 737px; font-size: small; padding: 0;">
+            <h1 class="bsas" style="padding-left: 10px;">Bs As - Octubre</h1>
+            <p class="bsas" style="padding-left: 10px; padding-right: 5px;">Buenos Aires es la provincia y localidad más grande del estado de Argentina. En los Estados Unidos, Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie)</p>
+            <button type="button" class="btn btn-outline-secondary" style="margin-left: 10px; margin-bottom: 10px;">Conocé más</button>
+        </div>
+    </div>
+    </div>
+
+    
+    <div class="row align-items-center mt-4">
+        <p class="titulo">CONVIÉRTETE EN UN</p>
+        <p class="subtitulo"><b>ORADOR</b></p>
+        <p class="texto">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+        <div class="container">
+        <div class="row mt-3 justify-content-center align-items-center">
+            <div class="col-auto">
+              <input type="text" class="form-control-sm" placeholder="Nombre" aria-label="Nombre" style="width: 300px; border-color: rgb(211, 208, 208);">
+            </div>
+            <div class="col-auto">
+              <input type="text" class="form-control-sm" placeholder="Apellido" aria-label="Apellido" style="width: 300px; border-color: rgb(211, 208, 208);">
+            </div>
+        </div>
+        <div class="row mt-3 justify-content-center align-items-center">
+          <div class="col-auto">
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; width: 624px;"></textarea>
+            <label for="floatingTextarea2">¿Sobre qué quieres hablar?</label>
+            <small class="form-text text-muted">Recuerda incluir un título para tu charla</small>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3 mb-3">
+          <div class="col-auto">
+          <button type="submit" class="btn btn-success" style="width: 620px; background-color: rgb(75, 209, 75); border-color: rgb(75, 209, 75);">Enviar</button>
+          </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center align-items-center" style="background-color: rgba(8, 8, 75, 0.877); padding-top: 20px;">
+          <div class="col-auto m-auto pb-4">
+            <a href="#" class="badge text-wrap mx-2" style="width: 6rem; color: white; font-size: 13px;">Preguntas frecuentes</a>
+            <a href="#" class="badge text-wrap mx-2" style="width: 6rem; color: white; font-size: 13px;">Contáctanos</a>
+            <a href="#" class="badge text-wrap mx-2" style="width: 6rem; color: white; font-size: 13px;">Prensa</a>
+            <a href="#" class="badge text-wrap mx-2" style="width: 6rem; color: white; font-size: 13px;">Conferencias</a>
+            <a href="#" class="badge text-wrap mx-2" style="width: 6rem; color: white; font-size: 13px;">Términos y Condiciones</a>
+            <a href="#" class="badge text-wrap mx-2" style="width: 6rem; color: white; font-size: 13px;">Privacidad</a>
+            <a href="#" class="badge text-wrap mx-2" style="width: 6rem; color: white; font-size: 13px;">Estudiantes</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+<!-- JavaScript Bundle with Popper -->
+<script src="script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,31 @@
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./TP/ba1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.img-logo{
+    width: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 30px;
+}
+
+.titulo{
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+}
